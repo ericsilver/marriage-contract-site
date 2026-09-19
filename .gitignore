@@ -1,0 +1,10 @@
+# This repository is public-facing. Nothing from the manuscript belongs here.
+*.tex
+*.pdf
+*.docx
+*.aux
+*.log
+*.src
+art/
+build/
+.env

@@ -1,0 +1,105 @@
+THE NO-SURPRISES CONTRACT
+Built to minimize regret.
+
+From "The Marriage Contract" (sample draft). This is a starting point for discussion, not a finished legal document and not legal advice. Each spouse needs an independent lawyer licensed in their state. [Bracketed] numbers are placeholders for you to decide. Words in [[double brackets]] hand a decision to a judge or arbitrator: they are the "luck of the draw" terms.
+
+
+ABOUT THIS CONTRACT
+
+The idea. There are two kinds of regret a contract can do something about. One is about outcomes, such as a career given up for nothing or an inheritance that vanished into a joint account. The other is about process, such as two years of your life and half your savings spent fighting over an adjective. This contract goes after both. It uses six design rules.
+
+- Numbers, not adjectives. Every [[equitable]] is replaced with a formula. You can run the formula at your kitchen table on any day of your marriage and know where you stand.
+
+- Written before you know who you'll be. The terms are symmetric. You're writing them before you know which of you will out-earn the other, who will get sick, and who will inherit. If a term would seem unfair to you from the other chair, change it now.
+
+- You vest. Like stock options, the obligations grow with the length of the marriage. A two-year marriage and a twenty-year marriage shouldn't end the same way, and both of you should know the schedule in advance.
+
+- Sacrifices are paid for when they're made. When one of you steps back from paid work for the family, a credit accrues that year, at a rate you agreed on. The alternative is arguing about what it was worth a decade later.
+
+- A cheap exit. The agreement provides a cooling-off period, then mediation, then arbitration, and it penalizes turning down a reasonable offer.
+
+- Scheduled maintenance. You reread it every five years and at every big event, because the couple who signed it won't be the couple living under it.
+
+Who it suits. Nearly anyone. It's especially suited to couples who can't predict which of them will be the higher earner.
+
+What it costs. You give up the chance that a sympathetic judge would have done better for you than the formula. That's the trade you're making, and neither of you can know in advance which of you is giving up more.
+
+THE ARTICLES
+
+Article 1. Governing law.
+
+This Agreement, and the Spouses' property and support rights, shall be governed by the law of [State] as it exists on the date of signing, wherever the Spouses later live.
+
+In English: We pick one state's rules now and take them with us. Most courts honor this, though not all do.
+
+Article 2. Separate property.
+
+Each Spouse's separate property consists of (a) property listed on that Spouse's disclosure schedule; (b) gifts and inheritances received individually; and (c) all income from and appreciation of such property, whether passive or active, so long as it is held in an account or title in that Spouse's sole name. Separate property deposited into a jointly titled account or used to acquire jointly titled property becomes marital, with one exception: a Spouse who contributes separate funds to the purchase of the family home shall be credited with the dollar amount contributed, without interest or appreciation, before the home's equity is divided.
+
+In English: What you brought in stays yours if you keep it in your own name, and so does whatever you inherit. If you put it in a joint account, it becomes ours. The one exception is a down payment on the family home, which you get back dollar for dollar with no growth.
+
+Article 3. Marital property.
+
+All other property acquired by either Spouse during the marriage, including retirement contributions, equity compensation to the extent earned during the marriage, and the increase in value of any business in which either Spouse works, is marital property. Upon dissolution it shall be divided equally by value.
+
+In English: Everything either of us earns while we're married gets split fifty-fifty, and that includes retirement contributions, stock grants, and the growth of a business.
+
+Article 4. Businesses and hard-to-divide assets.
+
+A Spouse who works in a business may retain it by paying the other one-half of its marital value as determined by a single appraiser chosen jointly or, failing agreement, named by the arbitrator. Payment may be made over not more than [five] years at [the applicable federal rate plus two points], secured by the business interest.
+
+In English: Whoever runs the business keeps it and buys the other out. One appraiser values it, and the buyout can be paid over up to five years.
+
+Article 5. Caregiver credit.
+
+For each calendar year in which a Spouse, by agreement of both, works less than half-time in order to care for the Spouses' children or family members, that Spouse accrues a credit equal to [15] percent of the other Spouse's gross earned income for that year. Upon dissolution, accrued credits shall be paid from the other Spouse's share of marital property, or if that is insufficient, as additional support over not more than [five] years. Credits are extinguished by the death of either Spouse during the marriage.
+
+In English: For every year one of us stays home or goes part-time for the family, that person banks 15% of the other's pay for that year. It's paid out if we split. We both know the rate going in, so nobody has to argue about it later.
+
+Article 6. Support.
+
+Upon dissolution, the Spouse with the higher gross income shall pay the other [30] percent of the difference between their gross incomes, recalculated annually on exchange of tax returns. Duration vests as follows: for a marriage of less than [three] years, none; for [three] to [twenty] years, one-half the length of the marriage; for more than [twenty] years, until the payer reaches full Social Security retirement age. Support ends on the recipient's remarriage or either Spouse's death and is suspended during any period in which the recipient cohabits with a partner for more than [twelve] consecutive months.
+
+In English: The higher earner pays 30% of the income gap. The duration vests: nothing if the marriage lasted under three years, half the length of the marriage up to twenty years, and until the payer's retirement age after that.
+
+Article 7. No fault, except with money.
+
+Marital misconduct shall not affect any right under this Agreement, except that a Spouse who, within [three] years before filing, spent or transferred marital property for a purpose unrelated to the marriage, including an extramarital relationship, or concealed any asset, shall restore the full amount to the other Spouse's share, and in the case of concealment shall forfeit the concealed asset entirely.
+
+In English: Affairs don't change the split. Money spent on an affair gets paid back, and an asset that gets hidden goes entirely to the other spouse.
+
+Article 8. The home.
+
+Either Spouse may buy the other's interest in the family home at appraised value within [ninety] days of filing. If both or neither elect to do so, the home shall be listed for sale within [six] months, and carrying costs until sale shall be shared in proportion to income.
+
+In English: Either of us can buy the other out of the house at the appraised price. If we both want it, or neither of us does, it gets sold.
+
+Article 9. Debts.
+
+Debts incurred during the marriage for family purposes are shared equally. Debts incurred before the marriage, and education debt incurred during it, remain with the Spouse who incurred them, except that education debt is shared equally once the marriage has lasted [five] years from the date the debt was incurred.
+
+In English: Family debts are shared, and premarital debts stay with the person who brought them. A student loan taken out during the marriage becomes shared after five years.
+
+Article 10. Death.
+
+Neither Spouse waives any right in the other's estate. At each review under Article 12, each Spouse shall deliver to the other a current copy of every beneficiary designation.
+
+In English: The default death rules stay in place. We show each other our beneficiary forms every five years, which is the step that prevents most of the horror stories.
+
+Article 11. Process.
+
+(a) Except where safety requires otherwise, a Spouse intending to file shall give the other [thirty] days' written notice. (b) The Spouses shall attend not fewer than [three] mediation sessions before any contested filing on a financial issue. (c) Financial disputes not resolved in mediation shall be decided by binding arbitration before a single arbitrator who is a family lawyer with at least [fifteen] years' experience. (d) A Spouse who rejects a written settlement offer and then fails to obtain a result at least [ten] percent more favorable shall pay the other's fees incurred after the offer.
+
+In English: We give each other thirty days' notice before filing. We try mediation first. If that fails, a private arbitrator decides the money questions. If one of us turns down a fair offer and then does no better, that person pays the other's legal fees.
+
+Article 12. Review.
+
+The Spouses shall review this Agreement at every [fifth] anniversary and within [six] months after the birth or adoption of a child, a change of state of residence, an inheritance exceeding [$100,000], the founding or sale of a business, or the disability of either Spouse. Any amendment shall be in writing with the same formalities as this Agreement. Failure to review does not affect validity.
+
+In English: We reread it every five years and whenever something major happens. Any changes get made properly, with lawyers and signatures.
+
+Article 13. Hardship valve.
+
+If, at the time of enforcement, application of Article 6 would leave a Spouse eligible for public assistance, or a Spouse has become disabled, the arbitrator may increase the amount or duration of support by not more than [fifty] percent as the arbitrator deems [[just]].
+
+In English: This is the contract's only luck-of-the-draw word, and it's there deliberately. If one of us ends up disabled or destitute, the arbitrator can raise the support, up to a set limit.
