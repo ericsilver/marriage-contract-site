@@ -32,7 +32,7 @@ These are starting points for a conversation, not finished legal documents, and 
 
 ## State pages
 
-A state page is published only after a lawyer licensed in that state has reviewed it. None are up yet.
+A state page is published once its entries have been checked against the statutes and cases it cites. The pages are not reviewed by a lawyer, and each one says when it was last checked. None are up yet.
 
 ## How this repository is built
 
