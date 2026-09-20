@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Write to me: The Marriage Contract</title>
+<meta name="description" content="Send the author a message, anonymously if you like.">
+<link rel="stylesheet" href="assets/site.css">
+</head><body>
+<header class="site"><div class="wrap">
+<a class="brand" href="index.html">The Marriage Contract</a>
+<nav class="site"><a href="index.html">The book</a><a href="contracts.html">The contracts</a><a href="states/index.html">Your state</a><a href="corrections.html">Corrections</a><a href="contact.html" class=here>Write to me</a></nav>
+</div></header>
+<div class="wrap">
+
+<h1>Write to me</h1>
+<p>Anything sent here reaches me. You don't have to say who you are. If you'd like a reply, leave a way to reach you.</p>
+<p>Corrections are the most useful thing you can send (see <a href="corrections.html">how to report one</a>). Please don't send the details of your own case. I'm not a lawyer, I can't advise you, and this form isn't confidential the way a lawyer's office is.</p>
+<form id="f" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
+  <input type="hidden" name="access_key" value="12847e88-1cea-4cd3-9882-7a3bc6433a07">
+  <input type="hidden" name="subject" value="marriagecontract.org: a message">
+  <input type="hidden" name="from_name" value="marriagecontract.org contact form">
+  <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+  <label for="msg">Message</label>
+  <textarea class="msg" id="msg" name="message" required></textarea>
+  <label for="reply">How to reach you (optional)</label>
+  <input type="text" id="reply" name="reply_to_optional" autocomplete="off" placeholder="an email address, a name, or nothing">
+  <p><button type="submit" id="send">Send</button></p>
+  <p class="status sans" id="status" aria-live="polite"></p>
+</form>
+<p class="note">Messages travel through a form relay to my inbox. The relay sees the text you type and your connection details. I see only the text.</p>
+<p class="sans" style="font-size:.92rem"><a href="index.html">About the book</a> &middot; <a href="contracts.html">The contracts</a> &middot; <a href="states/index.html">Your state</a></p>
+<script>
+(function () {
+  var f = document.getElementById('f'), st = document.getElementById('status'), btn = document.getElementById('send');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    btn.disabled = true; st.className = 'status sans'; st.textContent = 'Sending…';
+    var data = {};
+    new FormData(f).forEach(function (v, k) { data[k] = v; });
+    fetch(f.action, { method: 'POST', body: JSON.stringify(data),
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' } })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j.success) { st.className = 'status sans ok'; st.textContent = 'Sent. Thank you.'; f.reset(); }
+        else { throw new Error(j.message || 'error'); }
+      })
+      .catch(function () { st.className = 'status sans err'; st.textContent = 'That didn’t go through. Please try again in a minute.'; })
+      .finally(function () { btn.disabled = false; });
+  });
+})();
+</script>
+
+<footer class="site">
+<p>This site and the book explain how the law generally works. They aren't legal advice, no lawyer has reviewed them, and they can't tell you how a court will rule in your case. For that you need a lawyer licensed in your state.</p>
+<p>&copy; 2026 Eric Silver &middot; <a href="corrections.html">Corrections</a> &middot; <a href="contact.html">Write to me</a> &middot; <a href="https://aporia.institute/ai/">How AI was used</a> &middot; <a href="https://aporia.institute/">aporia.institute</a></p>
+</footer>
+</div></body></html>
