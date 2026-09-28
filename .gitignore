@@ -8,3 +8,6 @@
 art/
 build/
 .env
+
+# publish.py output (deployed by the workflow, never committed)
+_site/
