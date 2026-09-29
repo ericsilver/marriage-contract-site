@@ -13,6 +13,8 @@ This repository holds only what is meant to be public. The manuscript is not her
 | `contracts/generous.txt` | The Generous Contract: "what's mine is yours," in writing |
 | `contracts/nosurprises.txt` | The No-Surprises Contract: built to minimize regret by replacing judicial discretion with numbers |
 | `contracts/children.txt` | The Children's Contract: the children's stability comes before either spouse's share |
+| `luck.html` | The Luck of the Draw Index: every state scored 0-100 on how much of the money at a divorce is left to the judge, with the statute or case behind each of five parts |
+| `worksheet.html` | A printable worksheet for reading the default contract together, article by article |
 | `states/_template.md` | The template every state page follows |
 
 The `.txt` files are plain text, one paragraph per line, so they can be pasted into a chatbot ("explain Article 6 to me," "what would this do to a couple like us?") or marked up and taken to a lawyer.
@@ -28,11 +30,11 @@ These are starting points for a conversation, not finished legal documents, and 
 - Nothing a couple signs binds a court about their children.
 - Retirement plans need their own paperwork; a prenup cannot waive rights in a 401(k) or pension.
 - The default contract is a reconstruction. No legislature enacted these words.
-- This is a working draft. Legal statements have not yet been checked against primary sources or reviewed by counsel.
+- No lawyer has reviewed the contracts or the state pages.
 
 ## State pages
 
-A state page is published once its entries have been checked against the statutes and cases it cites. The pages are not reviewed by a lawyer, and each one says when it was last checked. None are up yet.
+Every state page carries its Luck of the Draw score, with each part checked against the statute or case it cites; a part not yet checked says so. The rest of a state page is published once its entries have been checked the same way. The pages are not reviewed by a lawyer.
 
 ## How this repository is built
 
@@ -40,4 +42,4 @@ The files are generated from the book's appendix sources by a build script that 
 
 ## Rights
 
-Copyright Eric Silver. All rights reserved for now; a licence for the contract texts will be chosen before publication. You are welcome to copy the contracts for your own personal use, including pasting them into a chatbot or giving them to your lawyer.
+The contract texts (`contracts/*.txt` and the contracts page) are licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). You may copy, adapt, and share them for any purpose, including commercial use, if you credit *The Marriage Contract, 2027* by Eric Silver. Everything else on the site is copyright Eric Silver, all rights reserved.
