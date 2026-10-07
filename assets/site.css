@@ -64,5 +64,6 @@ table.luckidx td.num, table.luckidx th.num { text-align:right; white-space:nowra
 table.luckidx td.total { font-weight:700; text-align:right; }
 .bar { display:inline-block; height:.6rem; background:var(--gold); vertical-align:middle; border-radius:2px; }
 @media (max-width:40rem) { table.luckidx .part { display:none; } }
+.choose-wrap { overflow-x:auto; } table.choose th[scope=row] { width:16%; font-weight:700; } table.choose td { width:28%; } table.choose td p { margin:0 0 .5rem; font-size:.88rem; } .rks { display:flex; gap:.6rem; flex-wrap:wrap; } .rk { display:inline; margin:0; font-size:.78rem; } .rk select { font:inherit; margin-left:.2rem; } #compare, button[onclick] { font:600 .95rem system-ui,sans-serif; padding:.5rem .9rem; border:1px solid var(--ink); border-radius:5px; background:var(--ink); color:#fff; cursor:pointer; } button[onclick] { background:#fff; color:var(--ink); }
 @media print { header.site, footer.site, nav.site { display:none; } body { font-size:10pt; }
   table.worksheet td, table.worksheet th { padding:.3rem .35rem; } a { color:inherit; text-decoration:none; } }
