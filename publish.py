@@ -101,9 +101,16 @@ def main():
 
     # sitemap + robots
     urls = sorted(p.relative_to(OUT).as_posix() for p in OUT.rglob("*.html"))
+
+    def images(u):
+        # cartoon pages list their drawing, so image search can find it
+        if u.startswith("cartoons/") and u != "cartoons/index.html":
+            return f"<image:image><image:loc>{BASE}assets/cartoons/{u[9:-5]}.png</image:loc></image:image>"
+        return ""
     (OUT / "sitemap.xml").write_text(
-        '<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        + "".join(f"<url><loc>{BASE}{'' if u == 'index.html' else u}</loc></url>" for u in urls)
+        '<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'
+        + "".join(f"<url><loc>{BASE}{'' if u == 'index.html' else u}</loc>{images(u)}</url>" for u in urls)
         + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n", encoding="utf-8")
 
