@@ -4,7 +4,7 @@
 /* Hallmark · pre-emit critique: P4 H5 E4 S5 R4 V4 · weakest: E, the fine print could read as noise; it stays one step off the navy, the way it does on the jacket */
 /* Hallmark · dismissed F4 · one buy button on two grounds: yellow on navy, navy on cream */
 /* Hallmark · dismissed 58 · the words are the owner's and a redesign keeps them; the free pages and the contracts run long on purpose */
-/* Hallmark · reworded "Kindle from October 1, 2026. The paperback follows on October 15." to the edition line's "paperback from October 15, 2026" · the date has passed */
+/* Hallmark · reworded "Kindle from October 1, 2026. The paperback follows on October 15." to "In Kindle and paperback." · the paperback is out */
 /* Hallmark · reworded "practise" and "Licence" to American spelling, and dropped the arrows and middle dots from link rows · 63 names them */
 /* Hallmark · waive 78 · section heads render at 31px on the inner pages · these are reading pages, and a bigger head would interrupt the contract, the state's rules and the checklists */
 /* Hallmark · waive 44c · the inner pages' heads end near 400px · an inner page is a document, and the reader came for the state's rules or the checklist, which start on the first screen */
@@ -271,7 +271,6 @@ td.num, th.num, table.luckidx td.total { text-align: right; white-space: nowrap;
 table.luckidx td.total { font-weight: 900; }
 table.rulebook th:nth-child(1) { width: 8rem; }
 table.rulebook th:nth-child(2) { width: 5rem; }
-table.data tr:first-child th { border-bottom: var(--rule-bar) solid var(--color-navy); font: 700 var(--text-sm)/1.2 var(--font-display); }
 table.data td:first-child { font-family: var(--font-display); font-weight: 700; }
 .bar-mark, table.luckidx .bar { display: inline-block; position: static; height: 0.6rem; background: var(--color-navy); border: 0; vertical-align: middle; }
 table.worksheet td.n, table.worksheet th.n { width: 2.6rem; text-align: center; }
@@ -394,14 +393,14 @@ figure.cartoon figcaption { font-size: var(--text-xl); font-variant-numeric: tab
   table.worksheet td.box, table.worksheet th.box { width: 2.6rem; }
   /* A state's rules and the Ladder: one row, one stack */
   table.rulebook, table.rulebook tbody, table.data, table.data tbody { display: block; }
-  table.rulebook thead, table.data tr:first-child { display: none; }
+  table.rulebook thead, table.data thead { display: none; }
   table.rulebook tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--space-sm); padding-block: var(--space-sm); border-bottom: var(--rule-hair) solid var(--color-rule); }
   table.rulebook td { padding: 0; border: 0; }
   table.rulebook td:last-child { grid-column: 1 / -1; margin-top: var(--space-2xs); }
   table.data tr { display: block; padding-block: var(--space-sm); border-bottom: var(--rule-hair) solid var(--color-rule); }
   table.data td { display: block; padding: 0; border: 0; }
   table.data td + td { margin-top: var(--space-2xs); }
-  table.data td:nth-child(3)::before { content: "Fits when: "; font-family: var(--font-display); font-weight: 700; }
+  table.data td:nth-child(3)::before { content: "Right when: "; font-family: var(--font-display); font-weight: 700; }
 }
 @media (max-width: 22.5rem) {
   .wordmark { font-size: var(--text-sm); }
