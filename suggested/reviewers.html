@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Looking for reviewers: The Marriage Contract</title>
+<meta name="description" content="The Marriage Contract, 2027 is looking for reviewers. Free copies may be available.">
+<meta name="robots" content="noindex">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="bar on-navy" aria-label="Site">
+  <div class="container bar__in">
+    <a class="wordmark" href="index.html">The Marriage Contract <span>2027</span></a>
+    <div class="bar__right">
+      <ul class="bar__links"><li><a href="index.html">The book</a></li><li><a href="index.html#free">What’s free</a></li><li><a href="states/index.html">Your state</a></li><li><a href="contracts.html">The contracts</a></li><li><a href="articles/index.html">Articles</a></li><li><a href="cartoons/index.html">Cartoons</a></li><li><a href="corrections.html">Corrections</a></li><li><a href="contact.html">Write to me</a></li></ul>
+      <details class="bar__menu">
+        <summary><span class="when-closed">Menu</span><span class="when-open">Close</span></summary>
+        <ul><li><a href="index.html">The book</a></li><li><a href="index.html#free">What’s free</a></li><li><a href="states/index.html">Your state</a></li><li><a href="contracts.html">The contracts</a></li><li><a href="articles/index.html">Articles</a></li><li><a href="cartoons/index.html">Cartoons</a></li><li><a href="corrections.html">Corrections</a></li><li><a href="contact.html">Write to me</a></li></ul>
+      </details>
+      <a class="btn btn--primary" href="https://www.amazon.com/dp/B0HKTR4MDW">Buy it</a>
+    </div>
+  </div>
+</nav>
+<main id="main">
+<header class="page-head on-navy"><div class="fine" aria-hidden="true"></div><div class="container page-head__in"><div class="page-head__text"><h1>This book is looking for reviewers.</h1><p class="sub">Free copies may be available.</p></div></div></header><div class="container page-grid"><div class="page-body"><p>If you read books like this one and might write about it, on Amazon or anywhere else, tell me a little about yourself. I can’t promise a copy to everyone who asks.</p>
+<h2>The terms are short</h2>
+<ol class="terms">
+<li>A review isn’t required to get a copy, and nothing about what you write is up to me. If you hate it, say so.</li>
+<li>If you do review it, say that your copy was free.</li>
+<li>If you’re family or a close friend, read it anyway, but keep your review off Amazon, which doesn’t want reviews from people close to the author.</li>
+</ol>
+<form id="f" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
+  <input type="hidden" name="access_key" value="12847e88-1cea-4cd3-9882-7a3bc6433a07">
+  <input type="hidden" name="subject" value="marriagecontract.org: review copy request">
+  <input type="hidden" name="from_name" value="marriagecontract.org reviewers form">
+  <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+  <label for="msg">Who you are, and where you tend to write about books</label>
+  <textarea class="msg" id="msg" name="message" required></textarea>
+  <label for="reply">How to reach you</label>
+  <input type="text" id="reply" name="reply_to" autocomplete="off" required placeholder="an email address">
+  <p><button type="submit" id="send">Ask for a copy</button></p>
+  <p class="status" id="status" aria-live="polite"></p>
+</form>
+<p class="note">Messages travel through a form relay to my inbox. The relay sees the text you type and your connection details. I see only the text.</p>
+<script>
+(function () {
+  var f = document.getElementById('f'), st = document.getElementById('status'), btn = document.getElementById('send');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    btn.disabled = true; st.className = 'status'; st.textContent = 'Sending\u2026';
+    var data = {};
+    new FormData(f).forEach(function (v, k) { data[k] = v; });
+    fetch(f.action, { method: 'POST', body: JSON.stringify(data),
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' } })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j.success) { st.className = 'status ok'; st.textContent = 'Sent. Thank you.'; f.reset(); }
+        else { throw new Error(j.message || 'error'); }
+      })
+      .catch(function () { st.className = 'status err'; st.textContent = 'That didn\u2019t go through. Please try again in a minute.'; })
+      .finally(function () { btn.disabled = false; });
+  });
+})();
+</script></div><aside class="page-aside" aria-label="The book"><a href="index.html"><img src="img/cover.jpg" width="760" height="937" loading="lazy" alt="Cover of The Marriage Contract, 2027 by Eric Silver"></a><a class="btn btn--primary" href="https://www.amazon.com/dp/B0HKTR4MDW">Buy it on Amazon</a></aside></div>
+</main>
+<footer class="close on-navy">
+  <div class="fine" aria-hidden="true"></div>
+  <div class="container">
+    <p class="close__letter">This site and the book explain how the law generally works. They aren’t legal advice, no lawyer has reviewed them, and they can’t tell you how a court will rule in your case. For that you need a lawyer licensed in your state.</p>
+    <ul class="close__links">
+      <li><a href="corrections.html">Corrections</a></li>
+      <li><a href="contact.html">Write to me</a></li>
+      <li><a href="reviewers.html">Reviewers</a></li>
+      <li><a href="https://aporia.institute/ai/">How AI was used</a></li>
+      <li><a href="https://aporia.institute/">aporia.institute</a></li>
+    </ul>
+    <p class="close__legal">&copy; 2026 Eric Silver</p>
+  </div>
+</footer>
+<script>
+document.querySelectorAll('.bar__menu a').forEach(function (a) { a.addEventListener('click', function () { a.closest('details').open = false; }); });
+(function () {
+  var bar = document.querySelector('.bar'), last = window.scrollY;
+  window.addEventListener('scroll', function () {
+    var y = window.scrollY;
+    if (bar.querySelector('details[open]')) return;
+    bar.classList.toggle('is-tucked', y > last && y > 240);
+    last = y;
+  }, { passive: true });
+  document.addEventListener('focusin', function (e) { if (bar.contains(e.target)) bar.classList.remove('is-tucked'); });
+})();
+</script>
+</body>
+</html>

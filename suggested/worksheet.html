@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading it together: The Marriage Contract</title>
+<meta name="description" content="A one-page worksheet for reading the default marriage contract together, article by article.">
+<meta name="robots" content="noindex">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<p class="notice"><a href="reviewers.html"><strong>This book is looking for reviewers.</strong> <span>Free copies may be available.</span></a></p>
+<nav class="bar on-navy" aria-label="Site">
+  <div class="container bar__in">
+    <a class="wordmark" href="index.html">The Marriage Contract <span>2027</span></a>
+    <div class="bar__right">
+      <ul class="bar__links"><li><a href="index.html">The book</a></li><li><a href="index.html#free">What’s free</a></li><li><a href="states/index.html">Your state</a></li><li><a href="contracts.html">The contracts</a></li><li><a href="articles/index.html">Articles</a></li><li><a href="cartoons/index.html">Cartoons</a></li><li><a href="corrections.html">Corrections</a></li><li><a href="contact.html">Write to me</a></li></ul>
+      <details class="bar__menu">
+        <summary><span class="when-closed">Menu</span><span class="when-open">Close</span></summary>
+        <ul><li><a href="index.html">The book</a></li><li><a href="index.html#free">What’s free</a></li><li><a href="states/index.html">Your state</a></li><li><a href="contracts.html">The contracts</a></li><li><a href="articles/index.html">Articles</a></li><li><a href="cartoons/index.html">Cartoons</a></li><li><a href="corrections.html">Corrections</a></li><li><a href="contact.html">Write to me</a></li></ul>
+      </details>
+      <a class="btn btn--primary" href="https://www.amazon.com/dp/B0HKTR4MDW">Buy it</a>
+    </div>
+  </div>
+</nav>
+<main id="main">
+<header class="page-head on-navy"><div class="fine" aria-hidden="true"></div><div class="container page-head__in"><div class="page-head__text"><h1>Reading it together</h1><p class="sub">A worksheet for the contract you already have</p></div></div></header><div class="container page-grid"><div class="page-body">
+<p>This is the exercise from Chapters 2 and 36 of the book, on one sheet. Print it, or copy the table. It takes about an hour, it needs no lawyer, and nothing on it commits either of you to anything.</p>
+<h2>How to use it</h2>
+<ol>
+<li><strong>Read the summaries separately.</strong> Each of you ticks your own column for every article that surprised you. Don’t compare yet.</li>
+<li><strong>Compare ticks.</strong> Don’t debate. Just see where each of you was surprised. Most couples find they were surprised by different articles.</li>
+<li><strong>Pick one article and read its chapter.</strong> Start with one that applies to every marriage: debts (5), death (9), or the federal riders (10). Chapter 10, on beneficiary forms, usually ends with both of you logging in to check a form.</li>
+<li><strong>Decide about that one article.</strong> Keep it, change it, or ask a lawyer. &ldquo;Keep&rdquo; is a fine answer. Write it down anyway.</li>
+<li><strong>Repeat until you’re bored.</strong> Whatever is left under &ldquo;change&rdquo; and &ldquo;ask&rdquo; is your agenda for a one-hour meeting with a family lawyer in your state.</li>
+</ol>
+<h2>The fourteen articles</h2>
+<div class="choose-wrap" tabindex="0" role="region" aria-label="The worksheet"></div>
+<h2>For the lawyer</h2>
+<p>Take the sheet and three questions to a one-hour consultation:</p>
+<ol>
+<li>What would the default do for us today, in this state, with our assets and incomes? Ask for a range, not a single figure.</li>
+<li>Is there anything we want that this state won’t enforce?</li>
+<li>What does this state require for an agreement to hold up: disclosure, timing, separate lawyers, notarization?</li>
+</ol>
+<p>Before you go, look up your state’s <a href="luck.html">Luck of the Draw score</a> and <a href="states/index.html">its page</a>. The full texts of the default contract and three alternatives are on <a href="contracts.html">the contracts page</a>, licensed so you can copy and change them, and <a href="choose.html">a comparison page</a> sets three versions of each term side by side for each of you to rank.</p>
+<p class="note">This worksheet and the summaries on it describe how the law generally works. They aren’t legal advice, and no lawyer has reviewed them. The summaries are the English version of the term sheet in Chapter 1.</p>
+</div><aside class="page-aside" aria-label="The book"><a href="index.html"><img src="img/cover.jpg" width="760" height="937" loading="lazy" alt="Cover of The Marriage Contract, 2027 by Eric Silver"></a><a class="btn btn--primary" href="https://www.amazon.com/dp/B0HKTR4MDW">Buy it on Amazon</a></aside></div>
+</main>
+<footer class="close on-navy">
+  <div class="fine" aria-hidden="true"></div>
+  <div class="container">
+    <p class="close__letter">This site and the book explain how the law generally works. They aren’t legal advice, no lawyer has reviewed them, and they can’t tell you how a court will rule in your case. For that you need a lawyer licensed in your state.</p>
+    <ul class="close__links">
+      <li><a href="corrections.html">Corrections</a></li>
+      <li><a href="contact.html">Write to me</a></li>
+      <li><a href="reviewers.html">Reviewers</a></li>
+      <li><a href="https://aporia.institute/ai/">How AI was used</a></li>
+      <li><a href="https://aporia.institute/">aporia.institute</a></li>
+    </ul>
+    <p class="close__legal">&copy; 2026 Eric Silver</p>
+  </div>
+</footer>
+<script>
+document.querySelectorAll('.bar__menu a').forEach(function (a) { a.addEventListener('click', function () { a.closest('details').open = false; }); });
+(function () {
+  var bar = document.querySelector('.bar'), last = window.scrollY;
+  window.addEventListener('scroll', function () {
+    var y = window.scrollY;
+    if (bar.querySelector('details[open]')) return;
+    bar.classList.toggle('is-tucked', y > last && y > 240);
+    last = y;
+  }, { passive: true });
+  document.addEventListener('focusin', function (e) { if (bar.contains(e.target)) bar.classList.remove('is-tucked'); });
+})();
+</script>
+</body>
+</html>

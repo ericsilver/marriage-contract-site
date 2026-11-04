@@ -100,7 +100,8 @@ def main():
         f"{items}</channel></rss>\n", encoding="utf-8")
 
     # sitemap + robots
-    urls = sorted(p.relative_to(OUT).as_posix() for p in OUT.rglob("*.html"))
+    # suggested/ is an unlisted proposal: deployed, but kept out of the sitemap
+    urls = sorted(u for u in (p.relative_to(OUT).as_posix() for p in OUT.rglob("*.html")) if not u.startswith("suggested/"))
 
     def images(u):
         # cartoon pages list their drawing, so image search can find it

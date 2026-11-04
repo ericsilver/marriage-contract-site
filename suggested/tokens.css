@@ -1,0 +1,24 @@
+:root {
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.8125rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.25rem; --text-xl: 1.5625rem; --text-2xl: 1.953rem; --text-3xl: 2.441rem;
+  --text-display-s: clamp(2.25rem, 4vw + 0.5rem, 3.75rem); --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
+  --text-section: clamp(2rem, 2.5vw + 1rem, 3.5rem); --text-title: clamp(1.25rem, 0.75vw + 0.875rem, 1.625rem); --text-lead: clamp(1.125rem, 0.35vw + 1rem, 1.375rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
+  --container: 1440px; --gutter: 64px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  /* From the Kindle cover (marketing/cover-review/make_hook.py) and the book's style.tex */
+  --color-navy: #141E34; --color-navy-2: #1F2B48; --color-navy-3: #33415F;
+  --color-yellow: #F5C428; --color-yellow-2: #FFD54A; --color-gold: #D6A640; --color-white: #FDFBF5;
+  --color-paper: #F5EDD6; --color-paper-2: #EDE3C5; --color-paper-3: #E2D5AF; --color-sheet: #FBF6E9;
+  --color-ink: #141E34; --color-ink-2: #2A3450; --color-muted: #535B70;
+  --color-rule: #D8CCA8; --color-rule-2: #141E34;
+  --color-accent: #F5C428; --color-accent-ink: #141E34; --color-focus: #141E34;
+  --color-luck: #C1121F; /* red means one thing: a word that hands the question to a judge */
+  /* The Luck of the Draw map on navy: dim is a contract you can read, bright is "ask the judge" */
+  --ramp-0: #3A4766; --ramp-1: #6F7687; --ramp-2: #A59A6C; --ramp-3: #D0AA45; --ramp-4: #F5C428;
+  --font-display: "Noto Sans", ui-sans-serif, system-ui, sans-serif; --font-body: "TeX Gyre Pagella", "Palatino Linotype", Palatino, ui-serif, serif; --font-outlier: var(--font-display);
+  --radius-card: 0; --radius-pill: 2px; --rule-hair: 1px; --rule-bar: 4px; --shadow-card: none;
+  --tracking-display: -0.015em; --display-weight: 900;
+}

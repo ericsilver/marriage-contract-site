@@ -1,0 +1,7 @@
+/* Noto Sans (SIL Open Font License) stands in for the cover's Segoe UI Black. TeX Gyre Pagella (GUST Font License) is the book's own text face. */
+@font-face { font-family: "Noto Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("./fonts/noto-sans-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Noto Sans"; font-style: normal; font-weight: 900; font-display: swap; src: url("./fonts/noto-sans-latin-900-normal.woff2") format("woff2"); }
+@font-face { font-family: "TeX Gyre Pagella"; font-style: normal; font-weight: 400; font-display: swap; src: url("./fonts/pagella-regular.woff2") format("woff2"); }
+@font-face { font-family: "TeX Gyre Pagella"; font-style: italic; font-weight: 400; font-display: swap; src: url("./fonts/pagella-italic.woff2") format("woff2"); }
+@font-face { font-family: "TeX Gyre Pagella"; font-style: normal; font-weight: 700; font-display: swap; src: url("./fonts/pagella-bold.woff2") format("woff2"); }
+@font-face { font-family: "TeX Gyre Pagella"; font-style: italic; font-weight: 700; font-display: swap; src: url("./fonts/pagella-bolditalic.woff2") format("woff2"); }
