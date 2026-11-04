@@ -66,5 +66,33 @@ table.luckidx td.total { font-weight:700; text-align:right; }
 @media (max-width:40rem) { table.luckidx .part { display:none; } }
 .choose-wrap { overflow-x:auto; } table.choose th[scope=row] { width:16%; font-weight:700; } table.choose td { width:28%; } table.choose td p { margin:0 0 .5rem; font-size:.88rem; } .rks { display:flex; gap:.6rem; flex-wrap:wrap; } .rk { display:inline; margin:0; font-size:.78rem; } .rk select { font:inherit; margin-left:.2rem; } #compare, button[onclick] { font:600 .95rem system-ui,sans-serif; padding:.5rem .9rem; border:1px solid var(--ink); border-radius:5px; background:var(--ink); color:#fff; cursor:pointer; } button[onclick] { background:#fff; color:var(--ink); }
 figure.cartoon { margin:1rem 0 1.2rem; text-align:center; } figure.cartoon img { max-width:100%; height:auto; } figure.cartoon figcaption { font-style:italic; font-size:1.15rem; margin-top:.6rem; } .tiles { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:1.1rem; margin-top:1.2rem; } .tile { display:block; text-decoration:none; color:var(--ink); border:1px solid var(--rule); border-radius:6px; padding:.6rem; background:#fff; } .tile img { width:100%; height:170px; object-fit:contain; } .tile span { display:block; font-style:italic; font-size:.85rem; margin-top:.4rem; } .buybtn { display:inline-block; font:600 1rem system-ui,sans-serif; background:var(--ink); color:#fff; padding:.55rem 1rem; border-radius:5px; text-decoration:none; }
-@media print { header.site, footer.site, nav.site { display:none; } body { font-size:10pt; }
+.notice { background:var(--cream); border-bottom:1px solid var(--gold); text-align:center; font:.9rem/1.3 system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+.notice a { display:block; padding:.55rem 1rem; color:var(--ink); text-decoration:none; }
+.notice span { text-decoration:underline; }
+.from { font:.9rem system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; color:var(--muted); margin:0 0 1.4rem; }
+.checks { list-style:none; margin:1rem 0; padding:0; border-top:2px solid var(--ink); }
+.checks li { border-bottom:1px solid var(--rule); }
+.checks label { display:grid; grid-template-columns:1.9rem minmax(0,1fr); margin:0; padding:.6rem 0; color:inherit; font:inherit; cursor:pointer; }
+.checks input { width:1.15rem; height:1.15rem; margin:.3rem 0 0; }
+.checks input:checked + span { color:var(--muted); text-decoration:line-through; }
+.quiz { list-style:none; margin:1rem 0 0; padding:0; border-top:2px solid var(--ink); }
+.quiz > li { padding:1rem 0; border-bottom:1px solid var(--rule); }
+.quiz__q { margin:0; color:var(--ink); font:600 1.1rem/1.3 system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+.quiz__choices { display:none; flex-wrap:wrap; gap:.5rem; margin-top:.6rem; }
+.js .quiz__choices { display:flex; }
+.quiz__choices button { background:#fff; border:1px solid var(--ink); color:var(--ink); }
+.quiz__choices button[aria-pressed="true"] { background:var(--cream); font-weight:700; }
+.quiz__mark { margin:.5rem 0 0; font:700 .9rem system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+.quiz__mark.is-right { color:#1e6b52; } .quiz__mark.is-wrong { color:#a33; }
+.quiz details { margin-top:.5rem; } .quiz summary { cursor:pointer; font:.92rem system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; text-decoration:underline; }
+.quiz__score { display:none; position:sticky; bottom:0; margin-top:1rem; padding:.5rem .8rem; background:var(--ink); color:#fff; font:.9rem system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+.js .quiz__score { display:block; }
+.prompt { margin:1rem 0; padding:.4rem 1rem .9rem; background:var(--cream); border:1px solid var(--rule); }
+.prompt h3 { margin-top:.5rem; }
+.prompt button { display:none; } .js .prompt button { display:inline-block; }
+.terms li { margin:.35rem 0; }
+@media (max-width:40rem) { table.data thead { display:none; } table.data, table.data tbody, table.data tr, table.data td { display:block; }
+  table.data tr { padding:.6rem 0; border-bottom:1px solid var(--rule); } table.data td { padding:0; border:0; } table.data td + td { margin-top:.25rem; }
+  table.data td:first-child { font-weight:700; } table.data td:nth-child(3)::before { content:"Right when: "; font-weight:700; } }
+@media print { header.site, footer.site, nav.site, .notice { display:none; } body { font-size:10pt; }
   table.worksheet td, table.worksheet th { padding:.3rem .35rem; } a { color:inherit; text-decoration:none; } }

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Let a chatbot read your contract. Don’t let it write one.: The Marriage Contract</title>
+<meta name="description" content="What a chatbot is good for here, where it goes wrong, and three prompts to start with.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="../assets/site.css">
+</head><body>
+<p class="notice" style="margin:0"><a href="../reviewers.html"><strong>This book is looking for reviewers.</strong> <span>Free copies may be available.</span></a></p>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">The Marriage Contract</a>
+<nav class="site"><a href="../index.html">The book</a><a href="../essays/index.html">Essays</a><a href="../articles/index.html">Articles</a><a href="../cartoons/index.html">Cartoons</a><a href="../contracts.html">The contracts</a><a href="../states/index.html">Your state</a><a href="../corrections.html">Corrections</a><a href="../contact.html">Write to me</a><a href="https://www.amazon.com/dp/B0HKTR4MDW">Buy it</a></nav>
+</div></header>
+<div class="wrap">
+
+<h1>Let a chatbot read your contract. Don’t let it write one.</h1>
+<p class="sub">What a chatbot is good for here, where it goes wrong, and three prompts to start with.</p>
+<p class="from">Drawn from the book: Appendix D.</p>
+<p><a href="../contracts.html">The contracts</a> are plain text so that you can paste them into a chatbot: <a href="../contracts/default.txt">the default</a>, <a href="../contracts/generous.txt">Generous</a>, <a href="../contracts/nosurprises.txt">No-Surprises</a> and <a href="../contracts/children.txt">Children’s</a>.</p>
+<p><strong>Use it to understand.</strong> It’s good at turning a clause into plain language, comparing two versions of a term, running what-ifs, drafting questions for a lawyer, and helping you say what you want.</p>
+<p><strong>Check what it says about the law.</strong> Chatbots make up statutes and court rulings that sound convincing. They’re unreliable on your state’s current rules, on citations, and on the arithmetic of support formulas. Treat every legal claim as a lead. No chatbot knows what your county’s judges do, and none can make an agreement enforceable or represent you.</p>
+<p><strong>Don’t sign what it drafts.</strong> The draft may be fine. What saves a prenup in court is proof that each of you understood it and had independent advice, and as of the book’s edition no court had treated a chatbot as either. A draft may also miss your state’s formalities and the separate form that retirement-plan waivers require. Use it to get ready for the lawyers, and let the lawyers write the document.</p>
+<p><strong>Assume what you type is stored.</strong> Use round numbers and no names. Leave out account and Social Security numbers. In an unsafe relationship, paste nothing you’d hate to have found, and remember that others may be able to see the device and its history.</p>
+<h2 id="three-prompts">Three prompts</h2>
+<section id="explain-one-article" class="prompt">
+<h3>Explain one article</h3>
+<p>Here is a reconstruction of the default US marriage contract for couples without a prenup, from a book rather than a statute. Explain Article [4] in plain language with two examples. Then ask me, one question at a time, which facts about my life would alter how it applies. [paste default.txt]</p>
+</section>
+<section id="prepare-for-the-lawyer" class="prompt">
+<h3>Prepare for the lawyer</h3>
+<p>We live in [state] and want to change these terms of the default marriage contract: [list]. Write the ten questions to ask a family lawyer at a first meeting, most important first. Cover what’s enforceable here, what formalities apply, and what it will likely cost.</p>
+</section>
+<section id="rehearse-the-conversation" class="prompt">
+<h3>Rehearse the conversation</h3>
+<p>I want to suggest reading our default marriage contract with my [fiancé / spouse], and I’m afraid it will sound as if I expect us to fail. Play my partner, reasonable and a little hurt. After each thing I say, pause the role-play and tell me how it came across.</p>
+</section>
+
+<div class="buy"><p>Appendix D has six more prompts, for comparing contracts and for finding out what the two of you actually disagree about.</p><p><a class="btn" href="https://www.amazon.com/dp/B0HKTR4MDW">The book on Amazon</a></p><p class="sans" style="font-size:.9rem"><a href="../index.html#free">Everything else that's free here</a></p></div>
+<script>
+document.querySelectorAll('.prompt button').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var t = b.parentNode.querySelector('.prompt__text').textContent;
+    (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { b.textContent = 'Copied'; }).catch(function () { b.textContent = 'Select the text and copy it'; });
+    setTimeout(function () { b.textContent = 'Copy this prompt'; }, 2500);
+  });
+});
+</script>
+
+<footer class="site">
+<p>This site and the book explain how the law generally works. They aren't legal advice, no lawyer has reviewed them, and they can't tell you how a court will rule in your case. For that you need a lawyer licensed in your state.</p>
+<p>&copy; 2026 Eric Silver &middot; <a href="../corrections.html">Corrections</a> &middot; <a href="../contact.html">Write to me</a> &middot; <a href="https://aporia.institute/ai/">How AI was used</a> &middot; <a href="https://aporia.institute/">aporia.institute</a></p>
+</footer>
+</div></body></html>
