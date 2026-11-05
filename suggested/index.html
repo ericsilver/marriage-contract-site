@@ -403,19 +403,30 @@
 <script>
 (function () {
   var read = document.getElementById('read'), pick = document.getElementById('pick');
-  var links = document.querySelectorAll('.atlas__map a');
-  function show(a) {
-    links.forEach(function (x) { x.classList.toggle('is-on', x === a); });
-    read.innerHTML = '<strong>' + a.dataset.n + ': ' + a.dataset.s + ' of 100</strong><a href="' + a.getAttribute('href') + '">Read ' + a.dataset.n + '\u2019s page</a>';
-  }
+  var map = document.querySelector('.atlas__map'), links = map.querySelectorAll('a');
+  var rest = read.innerHTML, byKeys = false;
+  function mark(a) { links.forEach(function (x) { x.classList.toggle('is-on', x === a); }); }
+  function show(a, hint) { mark(a); read.innerHTML = '<strong>' + a.dataset.n + ': ' + a.dataset.s + ' of 100</strong>' + hint; }
+  function clear() { mark(null); read.innerHTML = rest; }
+  function go() { if (pick.value) location.href = 'states/' + pick.value + '.html'; }
   links.forEach(function (a) {
-    a.addEventListener('mouseenter', function () { show(a); pick.value = a.getAttribute('href').replace('states/', '').replace('.html', ''); });
-    a.addEventListener('focus', function () { show(a); pick.value = a.getAttribute('href').replace('states/', '').replace('.html', ''); });
+    a.addEventListener('mouseenter', function () { show(a, 'Click the state to open its page.'); });
+    a.addEventListener('focus', function () { if (a.matches(':focus-visible')) show(a, 'Press Enter to open its page.'); });
+  });
+  map.addEventListener('mouseleave', clear);
+  map.addEventListener('focusout', clear);
+  /* Picking from the list opens the state's page. Arrow keys change a closed list without choosing, so they wait for Enter. */
+  pick.addEventListener('pointerdown', function () { byKeys = false; });
+  pick.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); go(); } else { byKeys = true; }
   });
   pick.addEventListener('change', function () {
-    var a = document.querySelector('.atlas__map a[href="states/' + pick.value + '.html"]');
-    if (a) show(a);
+    if (!byKeys) { go(); return; }
+    var a = map.querySelector('a[href="states/' + pick.value + '.html"]');
+    if (a) show(a, 'Press Enter to open its page.'); else clear();
   });
+  /* Coming back with the back button must not leave a state in the list: picking it again would fire no change. */
+  window.addEventListener('pageshow', function () { pick.value = ''; byKeys = false; clear(); });
 })();
 </script>
 
