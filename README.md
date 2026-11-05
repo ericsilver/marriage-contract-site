@@ -9,7 +9,7 @@ This repository holds only what is meant to be public. The manuscript is not her
 | Path | What it is |
 |---|---|
 | `index.html` | What the book is, who should and shouldn't buy it, and what's free on the site |
-| `contracts.html` | Web versions of the book's four contracts, with a copy button for each |
+| `contracts.html` | The book's four contracts, with a copy button for each |
 | `contracts/default.txt` | The default contract, a reconstruction from statutes and case law, with the main state variations as options |
 | `contracts/generous.txt` | The Generous Contract: sharing nearly everything, in writing |
 | `contracts/nosurprises.txt` | The No-Surprises Contract: numbers in place of judicial discretion |
@@ -20,7 +20,7 @@ This repository holds only what is meant to be public. The manuscript is not her
 
 The `.txt` files are plain text, one paragraph per line, for pasting into a chatbot or marking up for a lawyer. Words in `[[double brackets]]` are the "luck of the draw" terms, which leave a decision to a judge or arbitrator.
 
-The contracts here have the same article numbers and terms as Appendices A and B of the book, in different words.
+The contracts are Appendices A and B of the book, as the book prints them. One sentence is corrected here until the book is: the plain-English note to Article 3 of the default contract says that only three of the nine community-property states must split property evenly at a divorce.
 
 ## Read this first
 
@@ -39,7 +39,7 @@ Every state page carries its Luck of the Draw score, with each part checked agai
 
 ## How this repository is built
 
-A build script that lives with the manuscript generates these files. It reads the site's own contract texts and page copy, not the book's text. Please don't edit `index.html` or `contracts/*.txt` by hand; changes will be overwritten. Corrections are welcome as issues.
+A build script that lives with the manuscript generates these files. It takes the contracts from the book's appendices; the rest of the page copy is written for the site. Please don't edit `index.html` or `contracts/*.txt` by hand; changes will be overwritten. Corrections are welcome as issues.
 
 ## Rights
 
