@@ -1,121 +1,121 @@
 THE MARRIAGE CONTRACT (DEFAULT FORM)
 The one you already have.
 
-From "The Marriage Contract" (sample draft). This is a starting point for discussion, not a finished legal document and not legal advice. Each spouse needs an independent lawyer licensed in their state. [Bracketed] numbers are placeholders for you to decide. Words in [[double brackets]] hand a decision to a judge or arbitrator: they are the "luck of the draw" terms.
+A web version of a contract in "The Marriage Contract, 2027." The terms match the book. The wording doesn't, so check the book if a sentence matters to you. Treat it as a place to start talking. It isn't a finished legal document or legal advice, and each of you needs a separate lawyer licensed in your state. [Bracketed] numbers are yours to choose. Words in [[double brackets]] leave a decision to a judge or arbitrator; they're the "luck of the draw" terms.
 
 
 THE ARTICLES
 
 Article 1. Parties and formation.
 
-This Contract is made among the two Spouses and the State. It is formed upon solemnization of a marriage under a valid license or, in states that permit it, upon the Spouses' present agreement to be married followed by cohabitation and public reputation as married. The Spouses acknowledge that they have not read this Contract, that no copy was provided, and that neither fact affects its validity.
+The parties are the two Spouses and the State. This Contract takes effect when a marriage is solemnized under a valid license. In states that allow it, it also takes effect when the Spouses presently agree to be married, then live together and are publicly known as a married couple. They acknowledge that they haven't read this Contract and were never given a copy. Neither fact affects its validity.
 
-In English: You're in. It doesn't matter that nobody showed you the terms. In a few states it doesn't even matter that you skipped the license.
+In English: You're bound. Nobody had to show you the terms first, and in a few states you didn't even need a license.
 
 Article 2. Governing law.
 
-This Contract is governed by the law of the state in which either Spouse is domiciled at the time of dissolution or death, as that law then exists. The law of the place of celebration governs only the validity of the marriage. The Spouses may change the governing law by changing domicile, and either Spouse may do so unilaterally.
+Whichever state is the domicile of either Spouse when the marriage ends by dissolution or death supplies the governing law, as it stands at that time. The place of celebration controls only whether the marriage is valid. Changing domicile may change the governing law, and either Spouse may do that without the other's consent.
 
-In English: The rules are whatever they are in the state where you end up, on the day it ends. Either of you can change them by moving.
+In English: The state you end up in writes the rules, as they stand on the day the marriage ends. A move can change them, and either of you can move.
 
 Article 3. Marital property.
 
-[Option A: equitable distribution, 41 states and D.C.] All property acquired by either Spouse from the date of marriage until the cutoff date fixed by state law (separation, filing, or decree) is marital property regardless of title. Upon dissolution the court shall divide marital property in such proportions as it deems [[equitable]], without regard to marital misconduct in most states, after considering the length of the marriage, the age, health, income, and employability of each Spouse, each Spouse's contributions including homemaking, and [[such other factors as the court deems relevant]].
+[Option A: 41 states and D.C., equitable distribution] Whatever either Spouse acquires from the date of marriage to the state's cutoff, which may be separation, filing, or decree, is marital property, whoever holds title. At dissolution the court divides it in the shares it deems [[equitable]]. In most states it disregards marital misconduct. It weighs the length of the marriage; each Spouse's age, health, income, and employability; each Spouse's contributions, homemaking included; and [[any other factor it deems relevant]].
 
-[Option B: community property, 9 states] All property acquired by the labor of either Spouse during the marriage is community property, owned in equal undivided shares from the moment of acquisition. Upon dissolution the community shall be divided equally [California, Louisiana, New Mexico] or in a manner the court deems [[just and right]] [Texas, and similarly elsewhere].
+[Option B: 9 states, community property] Property that either Spouse's labor brings in during the marriage is community property, and each Spouse owns an equal undivided share from the moment it's acquired. At dissolution the community is split equally [California, Louisiana, New Mexico] or as the court deems [[just and right]] [Texas, among others].
 
-[Option C: all-property states] As Option A, except that the court may also divide property described in Article 4 where it deems that [[equitable]].
+[Option C: all-property states] Option A applies, and the court may also divide the property described in Article 4 if it deems that [[equitable]].
 
-In English: Everything either of you earns while married belongs to both of you, no matter whose name is on it. In nine states that means half each. Everywhere else it means whatever a judge thinks is fair, and in a few states the judge can dip into the premarital and inherited stuff too.
+In English: What either of you earns while you're married belongs to you both, whoever's name is on it. Nine states treat that as half each from the start, though only three must split it evenly at a divorce. In the others it means what a judge considers fair, and a few states let the judge reach premarital and inherited property as well.
 
 Article 4. Separate property.
 
-Property owned by a Spouse before marriage, or acquired during marriage by gift, bequest, or descent, is that Spouse's separate property, together with [in most states] its passive appreciation. Separate property becomes marital, in whole or in part, to the extent it is (a) commingled with marital property so that it cannot be traced; (b) retitled in joint names, which is presumed a gift to the marriage; or (c) increased in value through marital funds or the efforts of either Spouse. [Some states] All appreciation during the marriage is marital. The Spouse claiming separate property bears the burden of tracing it by [[clear and convincing]] or [[preponderant]] evidence, as the state provides.
+A Spouse's separate property is what that Spouse owned before the marriage or received during it by gift, bequest, or descent, plus [in most states] its passive appreciation. It turns marital, wholly or partly, to the extent it is (a) commingled beyond tracing with marital property; (b) put in joint names, which creates a presumption of a gift to the marriage; or (c) made more valuable by marital funds or either Spouse's efforts. [Some states] Every increase in value during the marriage is marital. Whoever claims property as separate bears the burden of tracing it. Depending on the state, the standard is [[preponderant]] or [[clear and convincing]] evidence.
 
-In English: What you brought in stays yours, along with gifts and inheritances, as long as you keep it completely apart and can prove it with paperwork years later. If you mix it, retitle it, or improve it with marital money, some or all of it becomes "ours."
+In English: What you owned going in stays yours, along with anything you're given or inherit, provided you keep it fully separate and can document that years from now. Mixing it in, putting it in joint names, or spending marital money on it turns some or all of it into shared property.
 
 Article 5. Debts.
 
-Debts incurred by either Spouse during the marriage are presumed marital and shall be allocated on the principles of Article 3. Allocation between the Spouses does not bind any creditor, and a Spouse remains liable on any obligation he or she signed regardless of the decree. Under the doctrine of necessaries or a family expense statute, a Spouse may be liable to third parties for medical care and other necessities furnished to the other Spouse. [Community property states] Community property is generally liable for debts incurred by either Spouse during the marriage.
+A debt either Spouse takes on during the marriage is presumed marital and is allocated under the principles of Article 3. The allocation binds the Spouses and no creditor: a Spouse who signed an obligation stays liable on it whatever the decree says. A family expense statute or the doctrine of necessaries may make a Spouse liable to third parties for the other Spouse's medical care and other necessities. [Community property states] Community property generally answers for debts either Spouse incurs during the marriage.
 
-In English: Debts get split like assets. The bank isn't bound by the split. If the decree says your ex pays the joint card and your ex doesn't, the bank comes after you. You may also owe your spouse's hospital bills.
+In English: Debts are divided the way assets are, but that division doesn't bind the lender. If your ex is ordered to pay the joint card and doesn't, the lender can still collect from you. Your spouse's hospital bills may be yours as well.
 
 Article 6. Support during the marriage.
 
-Each Spouse owes the other a duty of support according to his or her means. No court will enforce this duty or inquire into the adequacy of support while the Spouses live together. Upon separation, either Spouse may seek temporary support in an amount the court deems [[reasonable]], or as fixed by guideline where one exists.
+Each Spouse, according to that Spouse's own means, must support the other. No court will enforce this duty or ask whether the support is adequate while they live together. After separation, either Spouse may ask for temporary support, at a level the court deems [[reasonable]] or set by guideline where there is one.
 
-In English: You have to support each other, but that can't be enforced until somebody moves out.
+In English: You owe each other support, but no one can enforce that before one of you moves out.
 
 Article 7. Support after dissolution.
 
-[Option A: discretion, most states] The court [[may]] award maintenance to either Spouse in such amount and for such duration as it deems [[just]], considering the length of the marriage, the standard of living during it, each Spouse's resources, earning capacity, age, and health, contributions to the other's career, and [[any other factor the court deems relevant]].
+[Option A: most states, discretion] The court [[may]] order maintenance for either Spouse, in the amount and for the time it deems [[just]]. It considers the marriage's length and standard of living; each Spouse's age, health, resources, and earning capacity; what either did for the other's career; and [[whatever else it deems relevant]].
 
-[Option B: formula] Maintenance shall be calculated by statutory formula based on the Spouses' incomes, for a duration determined by the length of the marriage, from which the court may deviate where the result would be [[unjust or inappropriate]].
+[Option B: formula] A statute sets maintenance by formula from the Spouses' incomes, with a duration tied to the length of the marriage. The court may depart from these if it deems the result [[unjust or inappropriate]].
 
-[Option C: capped] Maintenance is available only after a marriage of stated minimum length, only to a Spouse unable to meet [[minimum reasonable needs]], and may not exceed a stated dollar amount, share of income, or duration.
+[Option C: capped] Only a Spouse who can't meet [[minimum reasonable needs]], after a marriage of a stated minimum length, may receive maintenance, and it's limited by a stated duration, share of income, or dollar amount.
 
-[Fault rider, a minority of states] A Spouse who committed adultery may be barred from maintenance, or the court may consider marital misconduct in fixing the amount.
+[Fault rider: in a minority of states] A Spouse's own adultery may bar that Spouse from maintenance, or the court may weigh marital misconduct in setting the amount.
 
-In all cases maintenance terminates on the recipient's remarriage or either party's death, may terminate or be reduced upon the recipient's cohabitation, and may be modified upon a [[substantial change in circumstances]] unless the decree provides otherwise.
+Everywhere, maintenance ends when the recipient remarries or either party dies, may end or shrink when the recipient cohabits, and, unless the decree says otherwise, may be modified on a [[substantial change in circumstances]].
 
-In English: After the divorce, the person with more may have to pay the person with less. How much, and for how long? In most states nobody can tell you in advance. A few states use a formula, and a few are stingy on purpose. In a handful, cheating can cost you your alimony.
+In English: After a divorce, the spouse with more may owe the spouse with less. Most states can't tell you how much or for how long until a judge decides. A few use a formula, a few limit it deliberately, and in a handful an affair can cost you your alimony.
 
 Article 8. Children.
 
-The Spouses' obligations to their children are not governed by this Contract and may not be varied by agreement. Child support shall be determined under state guidelines, belongs to the child, and may not be waived by either parent. Legal and physical custody shall be allocated according to [[the best interests of the child]] as determined at the time of decision. Any agreement of the Spouses on these subjects is advisory.
+This Contract doesn't govern what the Spouses owe their children, and no agreement can change those obligations. State guidelines set child support, which belongs to the child and which neither parent may waive. Legal and physical custody follow [[the best interests of the child]], judged when the decision is made. Whatever the Spouses agree on these subjects is only advisory.
 
-In English: The kids aren't part of the deal. Support comes from a formula, custody is up to the judge, and whatever you agreed to in advance is only a suggestion.
+In English: Your children aren't a term you can bargain over. A formula sets support, a judge decides custody, and anything you agreed to beforehand is a suggestion at most.
 
 Article 9. Death.
 
-[Option A: most states] If a Spouse dies intestate, the survivor takes a statutory share of the estate, ranging from one-third to the whole depending on the state and on who else survives. If a Spouse dies testate, the survivor may elect to take, in lieu of the will, a statutory share, typically one-third of the estate or a share that increases with the length of the marriage up to one-half. The survivor may also claim homestead, exempt property, and a family allowance. These rights may be waived only by a signed writing after [[fair]] disclosure.
+[Option A: the majority of states] If a Spouse dies without a will, the survivor receives a share fixed by statute, from one-third to all of the estate depending on the state and on which other relatives survive. If there is a will, the survivor may reject it and elect a statutory share instead, usually one-third of the estate, or a portion that rises to as much as one-half as the marriage gets longer. The survivor may also claim a family allowance, exempt property, and homestead. Only a signed writing, following [[fair]] disclosure, can waive these rights.
 
-[Option B: community property states] The survivor owns one-half of the community property outright. The decedent may dispose by will only of his or her half and of separate property.
+[Option B: community property states] Half the community property already belongs to the survivor. By will, the decedent can dispose only of the decedent's own half and separate property.
 
-[Option C: Georgia] The survivor has no elective share and may petition for a year's support.
+[Option C: Georgia] There is no elective share. The survivor may petition for a year's support.
 
-In English: With no will, your spouse gets a large share of everything. If your will cuts your spouse out, your spouse can override it and take a guaranteed minimum. Georgia is the exception.
+In English: If there's no will, your spouse takes a big portion of the estate. If a will leaves your spouse out, your spouse can set it aside and claim a set minimum. Georgia does it differently.
 
 Article 10. Federal riders.
 
-(a) Tax. Spouses who file a joint return are jointly and severally liable for the entire tax, subject to limited relief for an innocent spouse. Transfers between Spouses, or incident to divorce, are not taxable events. Maintenance under instruments executed after 2018 is neither deductible by the payer nor income to the recipient.
+(a) Tax. A joint return makes both Spouses liable, jointly and severally, for the whole tax, with limited innocent-spouse relief. Neither a transfer between Spouses nor one incident to divorce is a taxable event. Under instruments executed after 2018, the payer can't deduct maintenance and the recipient doesn't count it as income.
 
-(b) Retirement plans. Each Spouse is entitled to a survivor annuity from the other's pension and is the default beneficiary of the other's 401(k). These rights may be waived only by a spouse, in writing, on the plan's form, with a notary or plan representative as witness. A premarital agreement does not satisfy this requirement. A plan may be divided on divorce only by a qualified domestic relations order.
+(b) Retirement plans. Each Spouse's pension must provide the other a survivor annuity, and each Spouse is the other's default 401(k) beneficiary. Only a spouse can waive these rights, in writing, on the plan's form, witnessed by a notary or plan representative. A premarital agreement doesn't count as a waiver. Dividing a plan at divorce takes a qualified domestic relations order.
 
-(c) Beneficiary designations. The plan administrator or insurer shall pay the beneficiary named on its form, notwithstanding any will, divorce decree, or provision of this Contract. State laws that revoke a former spouse's designation on divorce do not apply to plans governed by federal law.
+(c) Beneficiary forms. An insurer or plan administrator pays whoever is named on its form, regardless of a will, a divorce decree, or this Contract. State laws that cancel a former spouse's designation at divorce don't reach federally governed plans.
 
-(d) Social Security. After a marriage of ten years, a divorced Spouse may claim benefits on the other's earnings record.
+(d) Social Security. A divorced Spouse whose marriage lasted ten years may claim benefits based on the other's earnings.
 
-(e) Military and federal service. Retired pay is divisible as property. Direct payment to a former Spouse requires ten years of marriage overlapping ten years of service.
+(e) Military and federal service. Courts can divide retired pay as property. A former Spouse gets paid directly only if ten years of marriage overlapped ten years of service.
 
-(f) Immigration. A Spouse who sponsors the other for permanent residence promises the United States to support the immigrant at 125 percent of the poverty line. The promise survives divorce and cannot be waived by agreement between the Spouses.
+(f) Immigration. Sponsoring a Spouse for permanent residence means promising the United States to support that Spouse at 125 percent of the poverty line. Divorce doesn't end that promise, and the Spouses can't waive it between themselves.
 
-(g) Bankruptcy. Support obligations are not dischargeable. Property-division obligations to a Spouse or former Spouse are not dischargeable in a Chapter 7 liquidation.
+(g) Bankruptcy. Bankruptcy can't discharge support obligations. In a Chapter 7 liquidation, it also can't discharge property-division obligations owed to a Spouse or former Spouse.
 
-In English: The federal government added terms that neither you nor your state can remove. The ones that catch people out most often are the joint tax return, the old 401(k) beneficiary form, and the support promise you made to Washington if you sponsored your spouse for a green card.
+In English: Federal law adds terms that no state and no couple can delete. The ones most likely to surprise you are the joint tax return, the support promise behind a green-card sponsorship, and an old 401(k) beneficiary form.
 
 Article 11. Disputes.
 
-All disputes under this Contract shall be resolved in the family court of the governing state, by a judge assigned without the Spouses' participation, sitting without a jury in nearly all states. The court exercises [[broad discretion]], and its determinations will be reversed only for [[abuse of discretion]]. Most disputes will be resolved by settlement negotiated in light of the [[predicted]] exercise of that discretion. Each Spouse shall bear his or her own fees, except that the court may shift fees as it deems [[appropriate]] in light of the Spouses' relative resources or conduct. The Spouses may agree to mediate or, in many states, to arbitrate financial disputes.
+Disputes under this Contract go to the family court of the governing state, before a judge assigned without any input from the Spouses, and in nearly all states without a jury. The court has [[broad discretion]], and an appeal succeeds only on a showing of [[abuse of discretion]]. Most disputes settle, in negotiations based on the [[predicted]] use of that discretion. Each Spouse pays that Spouse's own fees, but the court may shift them as it deems [[appropriate]], given how the Spouses' resources compare or their conduct. The Spouses may agree to mediate, and in many states may agree to arbitrate financial disputes.
 
-In English: There's one judge and no jury, and the judge has so much leeway that appeals almost never work. Most people settle, which means they end up bargaining over a guess about what that judge would do. Each of you pays your own lawyer unless the judge decides otherwise.
+In English: You get one judge and no jury, and that judge has so much latitude that appeals rarely succeed. So most couples settle, which means bargaining over a forecast of what that judge would do. You each pay your own lawyer unless the judge orders otherwise.
 
 Article 12. Amendment by the Spouses.
 
-The Spouses may vary Articles 3, 4, 5, 7, and 9, and may designate governing law under Article 2, by a written agreement signed by both, before marriage or during it. To be enforced the agreement must be voluntary, must follow [[fair and reasonable]] disclosure of each Spouse's finances or a knowing waiver of it, and must not be [[unconscionable]], tested [most states] at signing or [some states] at enforcement. Agreements made during marriage receive closer scrutiny. Articles 6, 8, 10, 11, 13, and 14 may not be varied.
+Together, the Spouses may change Articles 3, 4, 5, 7, or 9, and choose the governing law under Article 2, by both signing a written agreement before or during the marriage. An enforceable agreement has to be voluntary, has to follow [[fair and reasonable]] financial disclosure by each Spouse or a knowing waiver of disclosure, and can't be [[unconscionable]], which is judged [most states] when it's signed or [some states] when it's enforced. Courts look harder at agreements made during marriage. The Spouses can't change anything in Articles 6, 8, 10, 11, 13, or 14.
 
-In English: You can rewrite the money terms, before the wedding or after it, if you both sign, both come clean about your finances, and nobody was pressured. You can't rewrite the rules about the kids, the feds, the judge, or how you get out.
+In English: You two can rewrite the money terms, before or after the wedding, as long as you both sign, you're both open about your finances, and nobody is pressured. The rules on children, federal law, the judge, and how you get out aren't yours to rewrite.
 
 Article 13. Amendment by the State.
 
-The State may amend any Article at any time by legislation or judicial decision. Unless the State provides otherwise, amendments apply to marriages then existing and to dissolutions not yet final.
+Any Article may be changed at any time by the State, through statute or court decision. Unless it says otherwise, the change reaches existing marriages and dissolutions that aren't final.
 
-In English: The legislature can change your deal whenever it wants, and it doesn't have to ask you.
+In English: Your state's lawmakers and courts can change the deal at any time, without your consent.
 
 Article 14. Termination.
 
-This Contract terminates upon the death of a Spouse or a decree of dissolution or annulment. It does not terminate by agreement of the Spouses, by separation of any length, or by either Spouse's breach of any promise made at the wedding. In all states either Spouse may obtain a decree without proving fault, subject to any waiting or separation period the State requires.
+Only a Spouse's death or a decree of dissolution or annulment ends this Contract. The Spouses can't end it by agreement, separation of any length doesn't end it, and neither does breaking a promise made at the wedding. Every state lets either Spouse obtain a decree on a no-fault basis, after any waiting or separation period it requires.
 
-In English: The only ways out are a death or a judge's signature. Either of you can get that signature without proving the other did anything wrong. Breaking your vows isn't a breach of this contract.
+In English: It ends with a death or a judge's signature, and nothing else. Either of you can get the signature without showing the other did anything wrong. Breaking a wedding vow doesn't breach this contract.
 
-From The Marriage Contract, 2027 by Eric Silver (marriagecontract.org). Licensed under Creative Commons Attribution 4.0 (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/. You may copy, adapt, and share it for any purpose if you credit the book.
+Written for marriagecontract.org to go with The Marriage Contract, 2027 by Eric Silver. Licensed under Creative Commons Attribution 4.0 (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/. Copy, adapt, and share it for any purpose, as long as you credit the book.

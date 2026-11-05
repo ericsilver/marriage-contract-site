@@ -1,6 +1,6 @@
 # The Marriage Contract: companion site
 
-Companion material for *The Marriage Contract*, a book by Eric Silver about the agreement every married couple already has: the default terms their state wrote for them.
+Companion material for *The Marriage Contract, 2027*, a book by Eric Silver about the terms every married couple already has, written for them by their state.
 
 This repository holds only what is meant to be public. The manuscript is not here.
 
@@ -8,27 +8,28 @@ This repository holds only what is meant to be public. The manuscript is not her
 
 | Path | What it is |
 |---|---|
-| `index.html` | One page with every sample contract, a copy-to-clipboard button for each, and the list of state pages |
-| `contracts/default.txt` | The default marriage contract, reconstructed from statutes and case law, with the main state variations as options |
-| `contracts/generous.txt` | The Generous Contract: "what's mine is yours," in writing |
-| `contracts/nosurprises.txt` | The No-Surprises Contract: built to minimize regret by replacing judicial discretion with numbers |
-| `contracts/children.txt` | The Children's Contract: the children's stability comes before either spouse's share |
+| `index.html` | What the book is, who should and shouldn't buy it, and what's free on the site |
+| `contracts.html` | Web versions of the book's four contracts, with a copy button for each |
+| `contracts/default.txt` | The default contract, a reconstruction from statutes and case law, with the main state variations as options |
+| `contracts/generous.txt` | The Generous Contract: sharing nearly everything, in writing |
+| `contracts/nosurprises.txt` | The No-Surprises Contract: numbers in place of judicial discretion |
+| `contracts/children.txt` | The Children's Contract: the children's stability ahead of either spouse's share |
 | `luck.html` | The Luck of the Draw Index: every state scored 0-100 on how much of the money at a divorce is left to the judge, with the statute or case behind each of five parts |
 | `worksheet.html` | A printable worksheet for reading the default contract together, article by article |
 | `states/_template.md` | The template every state page follows |
 
-The `.txt` files are plain text, one paragraph per line, so they can be pasted into a chatbot ("explain Article 6 to me," "what would this do to a couple like us?") or marked up and taken to a lawyer.
+The `.txt` files are plain text, one paragraph per line, for pasting into a chatbot or marking up for a lawyer. Words in `[[double brackets]]` are the "luck of the draw" terms, which leave a decision to a judge or arbitrator.
 
-Words in `[[double brackets]]` are the "luck of the draw" terms: places where the contract hands the decision to a judge or arbitrator instead of giving an answer.
+The contracts here have the same article numbers and terms as Appendices A and B of the book, in different words.
 
 ## Read this first
 
-These are starting points for a conversation, not finished legal documents, and nothing here is legal advice.
+These are places to start a conversation. They aren't finished legal documents, and nothing here is legal advice.
 
-- No template is enforceable merely because both of you signed it.
-- Each spouse needs an independent lawyer licensed in their own state.
-- Nothing a couple signs binds a court about their children.
-- Retirement plans need their own paperwork; a prenup cannot waive rights in a 401(k) or pension.
+- Signing a template doesn't make it enforceable.
+- Each of you needs a separate lawyer licensed in your own state.
+- No agreement between a couple binds a court on their children.
+- Retirement plans need their own paperwork. A prenup can't give up rights in a 401(k) or pension.
 - The default contract is a reconstruction. No legislature enacted these words.
 - No lawyer has reviewed the contracts or the state pages.
 
@@ -38,8 +39,8 @@ Every state page carries its Luck of the Draw score, with each part checked agai
 
 ## How this repository is built
 
-The files are generated from the book's appendix sources by a build script that lives with the manuscript. Please don't edit `index.html` or `contracts/*.txt` by hand; changes will be overwritten. Corrections are welcome as issues.
+A build script that lives with the manuscript generates these files. It reads the site's own contract texts and page copy, not the book's text. Please don't edit `index.html` or `contracts/*.txt` by hand; changes will be overwritten. Corrections are welcome as issues.
 
 ## Rights
 
-The contract texts (`contracts/*.txt` and the contracts page) are licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). You may copy, adapt, and share them for any purpose, including commercial use, if you credit *The Marriage Contract, 2027* by Eric Silver. Everything else on the site is copyright Eric Silver, all rights reserved.
+The contract texts (`contracts/*.txt` and the contracts page) are licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Copy, adapt and share them for any purpose, commercial use included, with credit to Eric Silver's *The Marriage Contract, 2027*. Everything else on the site is copyright Eric Silver, all rights reserved.
