@@ -29,6 +29,11 @@ button:disabled { opacity: 0.55; cursor: not-allowed; }
 .on-navy .btn--primary { border-color: var(--color-yellow); background: var(--color-yellow); color: var(--color-navy); }
 .on-navy .btn--primary:hover { border-color: var(--color-yellow-2); background: var(--color-yellow-2); }
 .on-navy :focus-visible { outline-color: var(--color-yellow); }
+/* Owner's request, 2026-11-05: every link to the book's Amazon page looks like Amazon's own Buy Now button, on navy and on cream alike. The labels still say Amazon. */
+.btn.btn--amazon, .on-navy .btn.btn--amazon { border-color: #FF8F00; border-radius: 999px; background: #FFA41C; color: #0F1111; font: 400 var(--text-sm)/1.1 "Amazon Ember", Arial, Helvetica, sans-serif; box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5); }
+.btn.btn--amazon:hover, .on-navy .btn.btn--amazon:hover { border-color: #E3931E; background: #FA8900; color: #0F1111; }
+.btn.btn--amazon:active { background: #FF8F00; box-shadow: none; }
+.on-navy .btn.btn--amazon { box-shadow: none; }
 a { text-decoration-color: currentColor; transition: color var(--dur-micro) var(--ease-out); }
 a:hover { text-decoration-thickness: 2px; }
 a:active { color: var(--color-ink-2); }

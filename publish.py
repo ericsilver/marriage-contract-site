@@ -37,6 +37,13 @@ def meta(page, name):
     return html.unescape(m.group(1)) if m else ""
 
 
+def curl(s):
+    """Typographic quotes, as the build gives the text of every page."""
+    s = re.sub(r"(?<=[A-Za-z0-9.,!?])'", "’", s)
+    s = re.sub(r"'(?=[A-Za-z0-9])", "‘", s).replace("'", "’")
+    return re.sub(r'"([^"]*)"', "“\\1”", s)
+
+
 def title_of(page):
     m = re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S)
     return html.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip() if m else ""
@@ -63,25 +70,25 @@ def main():
     def when(d):
         return f"{d:%B} {d.day}, {d.year}"
 
-    # articles index
+    # articles index (markup and classes as the build gives the rest of the page)
     tmpl = (ROOT / "_scheduled" / "articles-index.tmpl.html").read_text(encoding="utf-8")
     if published:
-        items = "".join(f'<li><a href="{a["slug"]}.html"><strong>{html.escape(a["title"])}</strong></a>'
-                        f'<br><span class="sans" style="font-size:.85rem;color:#5d6472">{when(a["date"])}</span>'
-                        f'<br>{html.escape(a["desc"])}</li>' for a in published)
+        items = "".join(f'<li><a href="{a["slug"]}.html"><strong>{html.escape(a["title"], quote=False)}</strong></a>'
+                        f'<br><span class="fine-note">{when(a["date"])}</span>'
+                        f'<br>{html.escape(curl(a["desc"]), quote=False)}</li>' for a in published)
         listing = f'<ul class="articles">{items}</ul>'
     else:
         listing = "<p>Nothing yet.</p>"
     if upcoming:
         nxt = min(a["date"] for a in upcoming)
-        listing += f'<p class="sans" style="font-size:.9rem;color:#5d6472">A new one every week. The next is out on {when(nxt)}.</p>'
+        listing += f'<p class="fine-note">A new one every week. The next is out on {when(nxt)}.</p>'
     (OUT / "articles" / "index.html").write_text(tmpl.replace("<!--ARTICLES-->", listing), encoding="utf-8")
 
     # latest three on the front page
     front = (OUT / "index.html").read_text(encoding="utf-8")
     if published:
-        latest = "".join(f'<li><a href="articles/{a["slug"]}.html">{html.escape(a["title"])}</a></li>' for a in published[:3])
-        block = f'<h2>From the site</h2><ul>{latest}</ul><p><a href="articles/index.html">All articles</a></p>'
+        latest = "".join(f'<li><a href="articles/{a["slug"]}.html">{html.escape(a["title"], quote=False)}</a></li>' for a in published[:3])
+        block = f'<h3>From the site</h3><ul>{latest}</ul><p><a href="articles/index.html">All articles</a></p>'
     else:
         block = ""
     front = re.sub(r"<!--LATEST-->.*?<!--/LATEST-->", f"<!--LATEST-->{block}<!--/LATEST-->", front, flags=re.S)
